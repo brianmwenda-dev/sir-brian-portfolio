@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title> Portfolio Details</title>
+</head>
+<body>
+    <header class="navbar">
+  <div class="logo">
+  <img src="images/profile.jpeg" alt="Brian" class="nav-profile">
+</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+
+
+    </ul>
+  </nav>
+</header>
+
+<section>
+  <h2>My Portfolio (Sir_BRIAN)</h2>
+
+  <p>
+Personal portfolio built with modern web technologies.<br>
+
+HTML • CSS • React<br><br><br>
+  </p>
+
+  <div class="gallery-grid">
+    <img src="images/p1.png">
+      <img src="images/p2.png">
+        <img src="images/p3.png">
+            <img src="images/p4.png">
+                <img src="images/p5.png">
+                    <img src="images/p6.png">
+
+                    
+                    
+  </div>
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+
+<div class="neon-wrapper">
+  <form id="contact-form" class="neon-form" action="https://formspree.io/f/mnjloebw" method="POST" >
+    <h3>Let's Work Together</h3>
+
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+
+  <button type="submit" id="sendBtn">
+    <span class="btn-text">Send Message</span>
+    <span class="spinner"></span>
+  </button>
+  </form>
+</div>
+
+<!-- SUCCESS POPUP -->
+<div id="success-popup">
+  <div class="popup-content">
+    <h3>✅ Message Sent!</h3>
+    <p>I’ll get back to you shortly.</p>
+    <P>Thank You!</P>
+    <button onclick="closePopup()">Close</button>
+  </div>
+</div>
+  <a href="index.html" class="btn">⬅ Go Back</a>
+</section>
+
+</body>
+</html>

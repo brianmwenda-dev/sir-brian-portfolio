@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title> Sarovima Hotel project Details</title>
+</head>
+<body>
+    <header class="navbar">
+  <div class="logo">
+  <img src="images/profile.jpeg" alt="Brian" class="nav-profile">
+</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+
+
+    </ul>
+  </nav>
+</header>
+
+<section>
+  <h2>SAROVIMA BOOKING MANAGEMENT SYSTEM</h2>
+
+  <p>
+
+Handles bookings, rooms, and customer management.<br>
+
+PHP • MySQL<br><br><br>
+  </p>
+
+  <div class="gallery-grid">
+    <img src="images/1.png">
+      <img src="images/2.png">
+        <img src="images/3.png">
+            <img src="images/4.png">
+                <img src="images/5.png">
+                    <img src="images/6.png">
+
+                    
+                    
+  </div>
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+
+<div class="neon-wrapper">
+  <form id="contact-form" class="neon-form" action="https://formspree.io/f/mnjloebw" method="POST" >
+    <h3>Let's Work Together</h3>
+
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+
+  <button type="submit" id="sendBtn">
+    <span class="btn-text">Send Message</span>
+    <span class="spinner"></span>
+  </button>
+  </form>
+</div>
+
+<!-- SUCCESS POPUP -->
+<div id="success-popup">
+  <div class="popup-content">
+    <h3>✅ Message Sent!</h3>
+    <p>I’ll get back to you shortly.</p>
+    <P>Thank You!</P>
+    <button onclick="closePopup()">Close</button>
+  </div>
+</div>
+  <a href="index.html" class="btn">⬅ Go Back</a>
+</section>
+
+</body>
+</html>
